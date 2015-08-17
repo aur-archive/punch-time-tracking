@@ -1,0 +1,16 @@
+pkgbase = punch-time-tracking
+	pkgdesc = Command Line time tracking that integrates with todo.txt from Lifehacker
+	pkgver = 1.4.1
+	pkgrel = 1
+	url = http://code.google.com/p/punch-time-tracking/
+	install = punch-time-tracking.install
+	arch = any
+	license = GPL3
+	makedepends = git
+	depends = python2
+	optdepends = todotxt: integration with tasks - fairly useless without this
+	source = punch-time-tracking::git+git://github.com/marcelhuberfoo/punch-time-tracking-plus.git#tag=1.4.1
+	sha256sums = SKIP
+
+pkgname = punch-time-tracking
+
